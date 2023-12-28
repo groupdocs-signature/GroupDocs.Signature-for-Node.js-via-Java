@@ -1,0 +1,22 @@
+{
+  "name": "groupdocs.signature-for-node.js-via-java",
+  "version": "23.12.0",
+  "description": "GroupDocs.Signature for Node.js via Java examples, plugins and showcase projects",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/issues"
+  },
+  "homepage": "https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java#readme",
+  "dependencies": {
+    "@groupdocs/groupdocs.signature": "23.12.0",
+    "dotenv": "^16.3.1"
+  }
+}
