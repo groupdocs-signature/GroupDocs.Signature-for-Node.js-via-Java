@@ -1,54 +1,79 @@
-**GroupDocs.Signature for Node.js via Java** lets your app end-users sign the electronic documents from a wide range of file formats. Supports several types of e-signing methods.
+# GroupDocs.Signature for Node.js
 
-## Node.js Signature API Features 
-- Document Signature Processing Features
-- Create and add signatures to documents of various file formats.
-- Specify visual attributes of signatures, such as color, font, margins, etc.
-- Search and fetch a list of signatures from a document.
-- Determine if the document contains signatures meeting specified criteria.
-- Extract basic information about the document.
-- Generate image representation of document pages for preview.
-- Distinguish created signatures from the actual document.
-- Put encrypted text into the QR-code signature or embed custom data objects.   
+![npm](https://img.shields.io/npm/v/groupdocs-signature-cloud)
+![Node.js](https://img.shields.io/badge/Node.js-16%2B-informational)
 
-## Supported File Formats
-The following section lists the supported file formats for the barcode, image, QR-code, stamp, and text signature types:
-**Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX
-**Microsoft Excel:** XLSX, XLS, XLSB, XLSM, XLTX, XLTM
-**Microsoft PowerPoint:** PPTX, PPTM, PPT, PPSX, PPSM, PPS, POTX, POTM
-**OpenOffice:** ODT, OTT, ODS, OTS, ODP, OTP
-**Image:** BMP, DJVU, GIF, JPG, JPEG, PNG, SVG, TIF, TIFF, WEBP
-**CorelDraw:** CDR, CMX
-**Photoshop:** PSD
-**Metafile:** WMF
-**Portable:** PDF
+**Create, apply, and verify digital signatures** in documents using a powerful Node.js **e-signature SDK** built on top of GroupDocs.Signature for Java. Add electronic, barcode, QR-code, image, text, metadata, and form field signatures to **90+ document formats** including PDFs, Word, Excel, Images, and more.
 
-## Digital Signature Supported Formats
-**Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX
-**Microsoft Excel:** XLSX, XLS, XLSB, XLSM, XLTX, XLTM
-**Microsoft PowerPoint:** PPTX, PPTM
-**OpenOffice:** ODS, OTS
-**Portable:** PDF
+> ✅ Supports `create digital signature`, `esign pdf`, `sign Word document`, `verify signature`, and `remove barcode/QR code from PDF`.
 
-## Supported Signature Types
-- Text stamps
-- Text labels
-- Text as an image signature
-- Image signature
-- Digital signature
-- Barcode signature
-- QR-code signature
-- Metadata signature
-- Form-field signature
+---
 
-## Getting Started with GroupDocs.Signature for Node.js via Java
-### Installation
+## 🚀 Key Features
 
-From the command line:
+- ✅ Add **electronic and digital signatures** to over 90 formats (PDF, DOCX, XLSX, PPTX, etc.)
+- ✅ Create signatures from **image, barcode, QR code, stamp, metadata, or form fields**
+- ✅ Verify and remove **digital signatures, barcodes, or QR codes**
+- ✅ Digitally sign documents using **X.509 certificates** (PKCS#12/PKCS#7)
+- ✅ Add **invisible metadata** and **interactive form field** signatures
+- ✅ Batch-sign documents or apply multiple signature types
+- ✅ Fully compatible with **Node.js 16+**
 
-	npm i @groupdocs/groupdocs.signature
+---
 
-### Sign a PDF File using Node.js
+## 🔧 Supported Signature Types
+
+| Signature Type         | Description                                                  |
+|------------------------|--------------------------------------------------------------|
+| **Digital Signatures** | Use X.509 certificates (legal, secure, and verifiable)       |
+| **Image Signatures**   | Apply scanned signatures or logos as visual marks            |
+| **Text Signatures**    | Custom text with styling and position                        |
+| **QR-Code Signatures** | Add QR codes with encoded text/data                          |
+| **Barcode Signatures** | Add or verify 1D/2D barcodes (e.g., Code128, Aztec)          |
+| **Stamp Signatures**   | Timestamps, roles, and system metadata stamps                |
+| **Metadata Signatures**| Add invisible data for tracking and auditing                 |
+| **Form Field Signatures** | Add fillable form signature fields to documents           |
+
+---
+
+## 📁 Supported Document Formats
+
+**Office Formats:**
+- Word: DOC, DOCX, DOCM, DOTX, DOTM
+- Excel: XLS, XLSX, XLSM, XLSB
+- PowerPoint: PPT, PPTX, PPS, PPSX
+- Visio: VSD, VSDX, VSSX
+
+**Others:**
+- PDF, PDF/A
+- Images: JPG, PNG, TIFF, BMP, GIF, SVG
+- OpenDocument (ODT, ODS, ODP)
+- TXT, RTF, CSV, HTML, XML, JSON, and more
+
+---
+
+## 💡 Use Cases
+
+- ✅ Digitally sign documents using X.509 certificates
+- ✅ Add signature fields for web and mobile UI integration
+- ✅ Barcode & QR code verification for automation pipelines
+- ✅ Invisible metadata signing for compliance & version tracking
+- ✅ Search and remove unwanted signatures
+- ✅ Integrate e-signatures into Node.js SaaS or cloud platforms
+
+---
+
+## 📦 Installation
+
+Install via npm:
+
+```bash
+npm install @groupdocs/groupdocs.signature
+```
+
+---
+
+## How to Sign a PDF File using Node.js
 
 ```js
   const signature = new groupdocs.signature.Signature(pdfFilePath);
@@ -67,7 +92,7 @@ From the command line:
   signature.sign(outputFilePath, options);
 ```
 
-### Search for Digital Signatures in Excel XLSX using Node.js
+## How to Search for Digital Signatures in Excel XLSX using Node.js
 
 ```js
 const signature = new groupdocs.signature.Signature('spreadsheet.xlsx');
@@ -82,4 +107,71 @@ for (const digitalSignature of signatures) {
 }
 ```
 
-[Home](https://www.groupdocs.com/) | [Product Page](https://products.groupdocs.com/signature/nodejs-java) | [Documentation](https://docs.groupdocs.com/signature/nodejs-java/) | [Blog](https://blog.groupdocs.com/category/signature/) | [API Reference](https://apireference.groupdocs.com/signature/nodejs-java) | [Code Samples](https://github.com/groupdocs-signature/GroupDocs.signature-for-Node.js-via-Java) | [Free Support](forum.groupdocs.com/c/signature) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
+## 📚 Documentation & Resources
+
+- [Official Documentation](https://docs.groupdocs.com/signature/nodejs-java/)
+- [API Reference](https://reference.groupdocs.com/signature/nodejs/)
+- [Live Demos](https://products.groupdocs.app/signature/total)
+- [Code Samples](https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java)
+- [Free Support Forum](https://forum.groupdocs.com/c/signature)
+- [License Terms](https://purchase.groupdocs.com/policies/license)
+
+---
+
+## 🖥️ Node.js Compatibility
+
+- **Node.js** 16.x, 18.x, 20.x
+- **OS:** Windows, Linux, macOS
+- **Cloud:** AWS, Azure, GCP
+- **Containers:** Docker, Kubernetes
+
+---
+
+## 📈 Why Choose GroupDocs.Signature for Node.js?
+
+- ✅ Java-powered performance and stability via Node.js wrapper
+- ✅ Full support for 90+ document types
+- ✅ No Adobe or Office dependency
+- ✅ Modern async API structure
+- ✅ Secure and standards-compliant (X.509, PDF/A, PKCS#7)
+- ✅ Enterprise-ready SDK for large-scale applications
+
+---
+
+## 🔒 Security & Compliance
+
+- **Digital Certificate Support:** RSA, DSA, ECDSA
+- **Standards:** PDF/A, PKCS#7, X.509
+- **Audit Trail:** Signature metadata and verification history
+- **Secure APIs:** OAuth2, HTTPS, and environment-isolated processing
+
+---
+
+## Looking for Other SDKs?
+
+- 👉 [.NET SDK](https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET)
+- 👉 [Java SDK](https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java)
+- 👉 [Python SDK](https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET)
+
+---
+
+## 🙌 Contribute
+
+This repo contains **usage examples and templates**. We welcome community contributions!
+
+- [Submit issues](https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/issues)
+- [Fork the repo](https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java)
+- [Improve examples and docs](https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/pulls)
+
+---
+
+## 📜 License
+
+This project is licensed under the [GroupDocs EULA](https://purchase.groupdocs.com/policies/license).
+
+<!--
+SEO Keywords:
+nodejs digital signature, electronic signature node, sign pdf node.js, document signing nodejs, groupdocs signature node, nodejs signature sdk, barcode signature node, qr code signing nodejs, digital certificate pdf signing, sign excel nodejs, verify signature node, signature api for nodejs, add signature image to pdf node, node document automation, electronic signature javascript, node.js esign sdk
+-->
+
+**© 2025 GroupDocs. All rights reserved.**

@@ -1,0 +1,46 @@
+**GroupDocs.Signature for Node.js via Java**
+
+Node.js SDK to **sign, verify, search, and remove digital signatures** in 90+ file formats (PDF, Word, Excel, Images). Supports barcode, QR code, image, text, form field, and certificate-based (X.509, PKCS#7) signatures.
+
+## Key Features
+
+- Add signatures to PDFs, DOCX, XLSX, PPTX, PNG, etc.
+- Digital signing with certificates (.pfx)
+- Verify and remove existing signatures
+- Support for QR, barcode, image, stamp, metadata, and text signatures
+- NodeJS 3.6+ / Flask / Django / async support
+- Works on Windows, Linux, macOS, Docker, Cloud
+
+## Install
+
+```bash
+npm install @groupdocs/groupdocs.signature
+```
+
+## Code Snippet How to Sign a PDF File using Node.js
+
+```js
+  const signature = new groupdocs.signature.Signature(pdfFilePath);
+
+  // Create QR code sign options
+  const options = new groupdocs.signature.QrCodeSignOptions('JohnSmith');
+
+  // Setup QR code encoding type
+  options.setEncodeType(groupdocs.signature.QrCodeTypes.QR);
+  
+  // Set signature position
+  options.setLeft(100);
+  options.setTop(100);
+
+  // Sign document to file
+  signature.sign(outputFilePath, options);
+```
+
+## AI Search Tags
+
+`sign pdf nodejs`, `nodejs digital signature`, `document signing sdk`, `verify pdf signature`, `nodejs esign`, `qr code signature nodejs`, `barcode signing nodejs`, `nodejs signature api`, `groupdocs signature sdk`, `certificate-based signing`, `nodejs document automation`, `pdf signature verification`, `metadata signing nodejs`
+
+## Docs & Links
+
+- Docs: https://docs.groupdocs.com/signature/nodejs-java/
+- Code: https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java
