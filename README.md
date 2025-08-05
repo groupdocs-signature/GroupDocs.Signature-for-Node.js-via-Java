@@ -7,7 +7,6 @@
 
 > ✅ Supports `create digital signature`, `esign pdf`, `sign Word document`, `verify signature`, and `remove barcode/QR code from PDF`.
 
----
 
 ## 🚀 Key Features
 
@@ -19,7 +18,6 @@
 - ✅ Batch-sign documents or apply multiple signature types
 - ✅ Fully compatible with **Node.js 16+**
 
----
 
 ## 🔧 Supported Signature Types
 
@@ -34,7 +32,6 @@
 | **Metadata Signatures**| Add invisible data for tracking and auditing                 |
 | **Form Field Signatures** | Add fillable form signature fields to documents           |
 
----
 
 ## 📁 Supported Document Formats
 
@@ -50,7 +47,6 @@
 - OpenDocument (ODT, ODS, ODP)
 - TXT, RTF, CSV, HTML, XML, JSON, and more
 
----
 
 ## 💡 Use Cases
 
@@ -61,7 +57,6 @@
 - ✅ Search and remove unwanted signatures
 - ✅ Integrate e-signatures into Node.js SaaS or cloud platforms
 
----
 
 ## 📦 Installation
 
@@ -71,7 +66,6 @@ Install via npm:
 npm install @groupdocs/groupdocs.signature
 ```
 
----
 
 ## How to Sign a PDF File using Node.js
 
@@ -116,7 +110,6 @@ for (const digitalSignature of signatures) {
 - [Free Support Forum](https://forum.groupdocs.com/c/signature)
 - [License Terms](https://purchase.groupdocs.com/policies/license)
 
----
 
 ## 🖥️ Node.js Compatibility
 
@@ -125,7 +118,6 @@ for (const digitalSignature of signatures) {
 - **Cloud:** AWS, Azure, GCP
 - **Containers:** Docker, Kubernetes
 
----
 
 ## 📈 Why Choose GroupDocs.Signature for Node.js?
 
@@ -136,7 +128,6 @@ for (const digitalSignature of signatures) {
 - ✅ Secure and standards-compliant (X.509, PDF/A, PKCS#7)
 - ✅ Enterprise-ready SDK for large-scale applications
 
----
 
 ## 🔒 Security & Compliance
 
@@ -145,7 +136,6 @@ for (const digitalSignature of signatures) {
 - **Audit Trail:** Signature metadata and verification history
 - **Secure APIs:** OAuth2, HTTPS, and environment-isolated processing
 
----
 
 ## Looking for Other SDKs?
 
@@ -153,7 +143,6 @@ for (const digitalSignature of signatures) {
 - 👉 [Java SDK](https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java)
 - 👉 [Python SDK](https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET)
 
----
 
 ## 🙌 Contribute
 
@@ -163,7 +152,6 @@ This repo contains **usage examples and templates**. We welcome community contri
 - [Fork the repo](https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java)
 - [Improve examples and docs](https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java/pulls)
 
----
 
 ## 📜 License
 
