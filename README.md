@@ -50,11 +50,11 @@
 
 ## 💡 Use Cases
 
-- Digitally sign documents using X.509 certificates
-- Add signature fields for web and mobile UI integration
-- Barcode & QR code verification for automation pipelines
+- Digitally [sign](https://docs.groupdocs.com/signature/nodejs-java/esign-document-with-text-signature/) documents using X.509 certificates
+- [Add signature fields](https://docs.groupdocs.com/signature/nodejs-java/esign-document-with-stamp-signature/) for web and mobile UI integration
+- [Barcode & QR code](https://docs.groupdocs.com/signature/nodejs-java/esign-document-with-barcode-signature/) verification for automation pipelines
 - Invisible metadata signing for compliance & version tracking
-- Search and remove unwanted signatures
+- [Search](https://docs.groupdocs.com/signature/nodejs-java/search-for-barcode-e-signatures/) and remove unwanted signatures
 - Integrate e-signatures into Node.js SaaS or cloud platforms
 
 
