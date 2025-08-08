@@ -10,13 +10,13 @@
 
 ## 🚀 Key Features
 
-- ✅ Add **electronic and digital signatures** to over 90 formats (PDF, DOCX, XLSX, PPTX, etc.)
-- ✅ Create signatures from **image, barcode, QR code, stamp, metadata, or form fields**
-- ✅ Verify and remove **digital signatures, barcodes, or QR codes**
-- ✅ Digitally sign documents using **X.509 certificates** (PKCS#12/PKCS#7)
-- ✅ Add **invisible metadata** and **interactive form field** signatures
-- ✅ Batch-sign documents or apply multiple signature types
-- ✅ Fully compatible with **Node.js 16+**
+- Add **electronic and digital signatures** to over 90 formats (PDF, DOCX, XLSX, PPTX, etc.)
+- Create signatures from **image, barcode, QR code, stamp, metadata, or form fields**
+- Verify and remove **digital signatures, barcodes, or QR codes**
+- Digitally sign documents using **X.509 certificates** (PKCS#12/PKCS#7)
+- Add **invisible metadata** and **interactive form field** signatures
+- Batch-sign documents or apply multiple signature types
+- Fully compatible with **Node.js 16+**
 
 
 ## 🔧 Supported Signature Types
@@ -50,12 +50,12 @@
 
 ## 💡 Use Cases
 
-- ✅ Digitally sign documents using X.509 certificates
-- ✅ Add signature fields for web and mobile UI integration
-- ✅ Barcode & QR code verification for automation pipelines
-- ✅ Invisible metadata signing for compliance & version tracking
-- ✅ Search and remove unwanted signatures
-- ✅ Integrate e-signatures into Node.js SaaS or cloud platforms
+- Digitally sign documents using X.509 certificates
+- Add signature fields for web and mobile UI integration
+- Barcode & QR code verification for automation pipelines
+- Invisible metadata signing for compliance & version tracking
+- Search and remove unwanted signatures
+- Integrate e-signatures into Node.js SaaS or cloud platforms
 
 
 ## 📦 Installation
@@ -119,17 +119,17 @@ for (const digitalSignature of signatures) {
 - **Containers:** Docker, Kubernetes
 
 
-## 📈 Why Choose GroupDocs.Signature for Node.js?
+## Why Choose GroupDocs.Signature for Node.js?
 
-- ✅ Java-powered performance and stability via Node.js wrapper
-- ✅ Full support for 90+ document types
-- ✅ No Adobe or Office dependency
-- ✅ Modern async API structure
-- ✅ Secure and standards-compliant (X.509, PDF/A, PKCS#7)
-- ✅ Enterprise-ready SDK for large-scale applications
+- Java-powered performance and stability via Node.js wrapper
+- Full support for 90+ document types
+- No Adobe or Office dependency
+- Modern async API structure
+- Secure and standards-compliant (X.509, PDF/A, PKCS#7)
+- Enterprise-ready SDK for large-scale applications
 
 
-## 🔒 Security & Compliance
+## Security & Compliance
 
 - **Digital Certificate Support:** RSA, DSA, ECDSA
 - **Standards:** PDF/A, PKCS#7, X.509
@@ -144,7 +144,7 @@ for (const digitalSignature of signatures) {
 - 👉 [Python SDK](https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET)
 
 
-## 🙌 Contribute
+## Contribute
 
 This repo contains **usage examples and templates**. We welcome community contributions!
 
